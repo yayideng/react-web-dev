@@ -1,0 +1,228 @@
+html,
+body {
+  font-family: sans-serif;
+  height:100%;
+}
+
+#game-app {
+  background-color: azure;
+  height:100%;
+}
+
+.game-heading h1{
+  font-size:36px;
+  text-align: center;
+  color: skyblue;
+}
+
+.signup-form{
+  margin: 1rem;
+  border: 2px solid #DB7093;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 4rem;
+}
+
+.signup-title{
+  font-size: 2rem;
+  color: #DB7093;
+}
+
+.signup-form form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.input-field label {
+  color:#4169E1;
+}
+
+.signup-btn{
+  text-align: center;
+  border: 2px;
+  margin-top: 24px;
+  background-color: skyblue;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out;
+  font-size: 22px;
+  padding: 12px 24px;
+  border-radius: 1rem;
+  margin: 2rem;
+  color: white;
+}
+
+
+
+
+.start-game {
+  font-size: 1.5rem;
+  padding: 8px 24px;
+  color: #9568A5;
+  background-color: #ffffff;
+  border: 1px solid #9568A5;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  border-radius: 5px;
+  margin-left: 16px;
+}
+
+.logout-btn {
+  font-size: 1.5rem;
+  padding: 8px 24px;
+  color: #3F5778;
+  background-color: #ffffff;
+  border: 1px solid #3F5778;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  border-radius: 5px;
+  margin-left: 16px;
+}
+
+
+.start-game:hover{
+  background-color: #9568A5;
+  color: #ffffff;
+}
+
+.logout-btn:hover{
+  background-color: #3F5778;
+  color: #ffffff;
+}
+
+.game-header h1 {
+  text-align: center;
+}
+.new-game {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+   
+}
+
+.new-game-form {
+  margin-bottom: 1rem;
+}
+
+
+
+.game-container {
+  background-color: azure;
+}
+
+.guess-words-container h2 {
+  text-align: center;
+}
+
+.guess-words-cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 18px 19px;
+  background-color: #fff;
+  border: 3px solid pink;
+  border-radius: 5px;
+  height: auto;
+  width: auto;
+}
+
+.guess-words-list {
+  list-style: none;
+  display: block;
+  height: 100%;
+  padding: 1rem;
+}
+.guess-words-list li {
+  display: inline-block;
+  margin: 5px;
+  font-size: 18px;
+  min-width: 80px;
+  text-align: center;
+}
+
+.guess-word {
+  background-color: pink;
+  border-radius: 1rem;
+}
+
+.game-detail { 
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin-right: 2rem;
+  align-items:center;
+}
+
+.player-detail {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 2rem;
+}
+
+.player-guess-container form{
+  display: grid;
+	grid-template-columns: 3fr 1fr;
+  margin-right: 2rem;
+}
+
+.guesed-word {
+  border: 1px solid pink;
+}
+
+.to-check {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #3F5778;
+  border: 1px solid #3F5778;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.alert {
+  color: red;
+}
+
+.alert-invalid {
+  color: red;
+  font-size: 1rem;
+}
+
+#unauthorized-page{
+  margin:64px auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.error-description{
+  font-size: 18px;
+  margin-top: 12px;
+}
+.home-link{
+  margin-top: 24px;
+}
+
+#unauthorized-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: azure;
+}
+
+.error-title {
+  color:red;
+}
+
+.error-description{
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.home-link {
+  margin-bottom: 4rem;
+}

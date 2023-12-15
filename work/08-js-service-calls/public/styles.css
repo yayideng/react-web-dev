@@ -1,0 +1,175 @@
+html {
+	background-color: #dbeafe;
+}
+
+#app {
+	text-align: center;
+	background-color: #dbeafe;
+	margin-top: 6rem;
+}
+
+.login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.btn {
+	border: none;
+	font-family: 'Chubbo', sans-serif;
+	border-radius: 7px;
+	text-transform: uppercase;
+	font-weight: 500;
+	cursor: pointer;
+
+	transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+	transform: translateY(-2px);
+}
+.btn:active {
+	transform: none;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	border-radius: 10px;
+	box-shadow: var(--box-shadow);
+	padding: 1rem 2.5rem 2.5rem;
+}
+
+
+
+
+.login-form {
+	background-color: #93c5fd;
+	width: 50%;
+	border-radius: 1rem;
+	margin: 2rem;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.login-text {
+	margin-top: 1rem;
+}
+
+.form-row {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	margin: 2rem auto;
+}
+.form-label {
+	font-family: inherit;
+	text-transform: capitalize;
+	font-size: 1.4rem;
+	font-weight: 500;
+
+	padding-left: 1rem;
+	padding-bottom: 0.5rem;
+}
+.login-username {
+	border: none;
+	border-radius: 10px;
+	background-color: #f1f5f9;
+
+	font-size: 1rem;
+	line-height: 2;
+	padding: 0.3rem 1rem;
+	font-family: inherit;
+}
+
+
+.btn--submit {
+    text-align: center;
+	color: white;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+    margin: 1rem;
+	background-color: pink;
+}
+
+.word {
+	background-color: #70abef;;
+	width: 50%;
+	border-radius: 1rem;
+	margin: auto;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.word-input {
+	border: none;
+	border-radius: 10px;
+	background-color: #f1f5f9;
+
+	font-size: 1rem;
+	line-height: 2;
+	padding: 0.3rem 1rem;
+	font-family: inherit;
+}
+
+.logout-btn {
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+    margin: 1rem;
+	background-color: white;
+	border: 2px solid pink;
+	border-radius: 10px;
+
+}
+.logout-btn:hover {
+	background-color:pink;
+	color:white ;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+.content {
+	text-align: center;
+}
+.content__text {
+	font-size: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.content__name {
+	font-family: 'Telma', cursive;
+	font-weight: 800;
+	font-size: 2rem;
+	margin: 1rem;
+}
+
+.content__word {
+	font-weight: 700;
+	font-size: 3rem;
+	display: block;
+	margin-bottom: 2rem;
+}
+
+.error {
+	background-color: red;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 0.5rem;
+}
+

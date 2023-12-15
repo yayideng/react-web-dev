@@ -1,0 +1,113 @@
+
+#user-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #B0E0E6;
+}
+
+.user-message {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-message .message-label {
+  background-color: #DB7093;
+  padding: 6px 16px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.user-message .message-content{
+    background-color: #DB7093;
+    padding: 6px 16px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.signup-form, 
+.update-form{
+  margin: 1rem;
+  border: 2px solid #DB7093;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 4rem;
+}
+
+.signup-title,
+.update-title {
+  font-size: 2rem;
+  color: #DB7093;
+}
+
+.signup-form form,
+.update-form form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field label {
+  color:#4169E1;
+}
+
+.signup-btn, 
+.update-msg-btn {
+  text-align: center;
+  border: 2px;
+  margin-top: 24px;
+  background-color: skyblue;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out;
+  font-size: 22px;
+  padding: 12px 24px;
+  border-radius: 1rem;
+  margin: 2rem;
+  color: white;
+}
+
+.logout-btn {
+  font-size: 18px;
+  padding: 6px 12px;
+  color: #4169E1;
+  background-color: #ffffff;
+  border: 1px solid #4169E1;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  border-radius: 5px;
+  margin-left: 16px;
+}
+.logout-btn:hover {
+  background-color: #4169E1;
+  color: #ffffff;
+}
+
+#unauthorized-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #B0E0E6;
+}
+
+.error-title {
+  color:red;
+}
+
+.error-description{
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.home-link {
+  margin-bottom: 4rem;
+}

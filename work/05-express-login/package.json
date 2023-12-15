@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "05-express-login",
+  "description": "* Start from the up-to-date main branch (`git checkout main; git pull origin main`) * Create a feature branch named 'express-login' (`git checkout -b express-login`) * Create a package.json and necessary files to complete the work described below * Add, commit, and push the branch to github * Create a PR to merge to main * Be sure to include the reviewer(s).   * **Due by Sun Oct 15, 11:59pm PT**",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

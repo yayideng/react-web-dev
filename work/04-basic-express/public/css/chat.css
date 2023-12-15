@@ -1,0 +1,93 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+html,body {
+  font-family: sans-serif;
+  max-height: 100%;
+}
+#chat-app {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 48px auto;
+  padding: 2rem; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: skyblue;
+}
+.users {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 2rem;
+}
+.users li:not(:last-child) {
+  margin-right: 32px;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.users li:first-child .user::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 12px;
+  background-color: #008001;
+  border-radius: 50%;
+}
+.messages {
+  list-style: none;
+  border:3px solid #b7b7b7; 
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+}
+.message {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.message-content {
+  margin-left: 16px;
+}
+.message-sender {
+  font-size: 1.5rem;
+  color: darkblue;
+  margin-bottom: 1rem;
+}
+.outgoing {
+  width: 100%;
+  margin: 16px 0;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem;
+}
+.input-message {
+  width: 65%;
+  font-size: 1rem;
+  padding: 8px 16px;
+  border:2px solid #b7b7b7;
+}
+.button-submit {
+  width: 30%;
+  font-size: 22px;
+  padding: 8px 16px;
+  background-color: pink;
+  color: #ffffff;
+  border: 1px solid palevioletred;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: background-color 200ms ease-in-out;
+}
+.button-submit:hover {
+  background-color: skyblue;
+}
